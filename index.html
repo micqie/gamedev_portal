@@ -73,11 +73,8 @@
   <main class="max-w-7xl mx-auto w-full px-4 py-6">
 
     <div id="indicators-carousel" class="relative w-full h-48 md:h-64 mb-8 overflow-hidden rounded-lg border border-gray-800">
-      <div class="carousel-item absolute inset-0 transition-opacity duration-700 opacity-100">
-        <img src="videos/1.png" class="w-full h-full object-cover opacity-60" alt="Featured">
-        <div class="absolute bottom-4 left-6"><span class="chip-red px-3 py-1 rounded text-xs font-bold">FEATURED</span></div>
-      </div>
-      </div>
+      <!-- Slides injected by JS -->
+    </div>
 
     <div class="flex items-center justify-between mb-4 border-b border-gray-800 pb-2">
       <h2 class="text-lg font-bold flex items-center gap-2">
@@ -114,6 +111,38 @@
     const container = document.getElementById("product-container");
     const searchInput = document.getElementById("gameSearch");
     const countDisplay = document.getElementById("gameCount");
+
+    // Carousel
+    const carouselSlides = [
+      { name: "Shards of Salvation", img: "assets/shards-salvation2.png" },
+      { name: "Campus Defender", img: "assets/campus-defender2.png" },
+      { name: "Echoes of Amber", img: "assets/echoes-amber2.png" },
+      { name: "The Final Exam", img: "assets/final-exam2.png" },
+      { name: "Soul Switch", img: "assets/soul-switch2.png" },
+      { name: "Escape from PETA", img: "assets/escape-peta2.png" },
+      { name: "Pandesal Bomber", img: "assets/pandesal-bomber2.png" },
+      { name: "Detention Breakout", img: "assets/detention-breakout2.png" },
+    ];
+
+    const carousel = document.getElementById("indicators-carousel");
+    carousel.innerHTML = carouselSlides.map((s, i) => `
+      <div class="carousel-item absolute inset-0 transition-opacity duration-700 ${i === 0 ? "opacity-100" : "opacity-0"}">
+        <img src="${s.img}" class="w-full h-full object-cover opacity-70" alt="${s.name}">
+        <div class="absolute bottom-4 left-6">
+          <span class="chip-red px-3 py-1 rounded text-xs font-bold uppercase">${s.name}</span>
+        </div>
+      </div>
+    `).join("");
+
+    let currentSlide = 0;
+    setInterval(() => {
+      const items = carousel.querySelectorAll(".carousel-item");
+      items[currentSlide].classList.remove("opacity-100");
+      items[currentSlide].classList.add("opacity-0");
+      currentSlide = (currentSlide + 1) % items.length;
+      items[currentSlide].classList.remove("opacity-0");
+      items[currentSlide].classList.add("opacity-100");
+    }, 3500);
 
     function displayGames(filter = "") {
       container.innerHTML = "";

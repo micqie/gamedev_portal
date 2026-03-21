@@ -65,7 +65,7 @@
         developerImg: "assets/profiles/hannah.png",
         coDeveloperImg: "assets/profiles/micah.png",
         name: "Pandesal Bomber",
-        img: "assets/pandesal-bomber.png",
+        img: "assets/pandesal-bomber2.png",
         link: "https://hadac05.github.io/PandesalBomber/",
         description: "A 2D local multiplayer game set in Cagayan de Oro, where two playful characters compete as market vendors. Use explosive pandesal bombs to outsmart each other, destroy obstacles, and collect power-ups in a fun, competitive race to become the ultimate market champion!"
       },
@@ -75,17 +75,17 @@
         developerImg: "assets/profiles/jessie.png",
         coDeveloperImg: "assets/profiles/paul.png",
         name: "Detention Breakout",
-        img: "assets/detention-breakout.png",
+        img: "assets/detention-breakout2.png",
         link: "https://play.unity.com/api/v1/games/game/9803011c-819e-4d3a-9124-cd8103f48b60/build/latest/frame",
         description: "Detention Breakout is an exciting puzzle survival game where strategy and speed are your best friends. Step into the shoes of two mischievous college students a daring boy and a clever girl who are determined to escape their school after landing in detention.Navigate through tricky classrooms hallways and school obstacles while outsmarting relentless teachers hot on your trail. Solve clever puzzles find secret routes and use your wits to avoid getting caught. Every second counts if you fail  detention awaits!Will you escape and claim your freedom or will the teachers catch you and face the consequences? Plan, run, and survive in the Detention Breakout!"
       },
             {
         developerName: "Francis Oliver G. Alaba",
         coDeveloperName: "Robert Namoc",
-        developerImg: "assets/profiles/francis.png",
-        coDeveloperImg: "assets/profiles/robert.png",
-        name: "Alien Invasion Rooftop Phinma COC",
-        img: "assets/alien-invasion.png",
+        developerImg: "assets/profiles/person.png",
+        coDeveloperImg: "assets/profiles/person.png",
+        name: "Alien Invasion",
+        img: "assets/alien-invasion2.png",
         link: "https://play.unity.com/en/games/f90f2748-cd0b-45bf-8cd4-1aabc64ab32b/alieninvasionrooftop",
         description: "Alien Invasion Rooftop is a 2D shooting game where you fight though a building overrun by aliens. Clear each floor, defeat and secure the rooftop to stop the invasion."
       },
