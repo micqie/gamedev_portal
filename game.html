@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Profile</title>
+  <link rel="icon" type="logo/png" href="logo/game.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --red: #ef4444;
+      --red-dim: rgba(239, 68, 68, 0.18);
+      --grid: rgba(255, 255, 255, 0.035);
+    }
+
+    body {
+      background-color: #050505;
+      background-image:
+        linear-gradient(0deg, var(--grid) 1px, transparent 1px),
+        linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+      background-size: 40px 40px;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .text-red { color: var(--red); }
+    .accent-bar { background: var(--red); box-shadow: 0 0 12px var(--red-dim); }
+    .chip-red { background: var(--red-dim); color: #fff; border: 1px solid rgba(239, 68, 68, 0.35); }
+    .card { background: #111; border: 1px solid #333; }
+    .card:hover { border-color: #666; }
+  </style>
+</head>
+
+<body class="flex flex-col min-h-screen">
+  <main class="max-w-7xl mx-auto w-full px-4 py-6">
+    <div class="flex items-center gap-2 mb-4">
+      <span class="w-2 h-5 accent-bar"></span>
+      <h1 id="game-title" class="text-2xl md:text-3xl font-black tracking-tight">Game Title</h1>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <div class="lg:col-span-2 card rounded-lg overflow-hidden">
+        <div class="aspect-video bg-gray-900">
+          <img id="game-image" src="" alt="" class="w-full h-full object-cover">
+        </div>
+        <div class="p-4">
+          <p id="game-description" class="text-sm text-gray-300 leading-relaxed"></p>
+        </div>
+      </div>
+
+      <div class="space-y-4">
+        <div class="card rounded-lg p-4">
+          <h2 class="text-sm font-bold uppercase text-gray-300 mb-3 text-center">Developers</h2>
+          <div class="grid grid-cols-2 gap-3">
+            <div class="flex flex-col items-center text-center gap-2">
+              <img id="developer-pic" src="" alt="" class="w-20 h-20 rounded-full object-cover border border-gray-700">
+              <div class="text-[10px] text-gray-500 uppercase">Developer</div>
+              <div id="developer-name-profile" class="text-xs font-bold"></div>
+            </div>
+            <div class="flex flex-col items-center text-center gap-2">
+              <img id="co-developer-pic" src="" alt="" class="w-20 h-20 rounded-full object-cover border border-gray-700">
+              <div class="text-[10px] text-gray-500 uppercase">Co-Developer</div>
+              <div id="co-developer-name-profile" class="text-xs font-bold"></div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-2">
+          <a id="play-game" href="#" class="hidden w-full text-center rounded-md bg-red-600 px-5 py-3 text-sm font-bold uppercase tracking-wide hover:bg-red-500">
+            Play Game
+          </a>
+          <a href="index.html" class="w-full text-center rounded-md border border-gray-700 px-5 py-3 text-xs font-bold uppercase tracking-wide text-gray-300 hover:border-red-500 hover:text-red-400">
+            Back to Games
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  
+
+  <script src="js/details.js"></script>
+</body>
+</html>
