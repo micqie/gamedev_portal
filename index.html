@@ -33,6 +33,21 @@
     .accent-bar { background: var(--red); box-shadow: 0 0 12px var(--red-dim); }
     .chip-red { background: var(--red-dim); color: #fff; border: 1px solid rgba(239, 68, 68, 0.35); }
     .header-glow { box-shadow: 0 6px 16px rgba(239, 68, 68, 0.08); }
+    .title-pill {
+      background: rgba(0, 0, 0, 0.45);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      box-shadow: 0 0 10px rgba(239, 68, 68, 0.22);
+      padding: 5px 10px;
+      font-size: 11px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      font-weight: 800;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
 
     .y8-card {
       background: #111;
@@ -130,16 +145,14 @@
 
       filtered.forEach(game => {
         container.innerHTML += `
-          <a href="game.html?name=${encodeURIComponent(game.name)}" class="y8-card rounded overflow-hidden flex flex-col">
-            <div class="aspect-square bg-gray-800">
-              <img src="${game.img}" alt="${game.name}" class="w-full h-full object-cover">
-            </div>
-            <div class="p-2 mt-auto min-h-[28px] flex items-end">
-              <h3 class="text-[11px] font-bold leading-tight truncate uppercase text-gray-300 group-hover:text-white">
-                ${game.name}
-              </h3>
-            </div>
-          </a>
+          <div class="flex flex-col items-center gap-2">
+            <a href="game.html?name=${encodeURIComponent(game.name)}" class="y8-card rounded overflow-hidden flex flex-col w-full">
+              <div class="aspect-square bg-gray-800">
+                <img src="${game.img}" alt="${game.name}" class="w-full h-full object-cover">
+              </div>
+            </a>
+            <span class="title-pill">${game.name}</span>
+          </div>
         `;
       });
     }

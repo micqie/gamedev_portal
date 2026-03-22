@@ -56,7 +56,7 @@
         coDeveloperImg: "assets/profiles/ancog.png",
         name: "Escape from PETA",
         img: "assets/escape-peta2.png",
-        link: "https://play.unity.com/api/v1/games/game/a9e8e3fb-2ad0-4f73-8c61-c2c2cb526231/build/latest/frame",
+        link: "https://michael12341161.itch.io/escape-from-peta-phinma-coc-nightmare",
         description: "Inside the eerie halls of PHINMA COC School, something has gone terribly wrong. It’s late evening, and the campus is unusually quiet—too quiet. Trapped inside during a sudden lockdown, you soon realize that a terrifying entity known as “PETA” is hunting anyone still within the school.With only your wits and limited resources, you must explore dark classrooms, abandoned corridors, and hidden passages. Solve puzzles, uncover clues, and find a way to escape before PETA finds you."
       },
           {
