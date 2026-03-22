@@ -55,8 +55,8 @@
         developerImg: "assets/profiles/nacaya.png",
         coDeveloperImg: "assets/profiles/ancog.png",
         name: "Escape from PETA",
-        img: "assets/escape-peta.png",
-        link: "https://play.unity.com/api/v1/games/game/cfb31c52-4c62-49de-aa60-feb2170a3d4c/build/latest/frame",
+        img: "assets/escape-peta2.png",
+        link: "https://play.unity.com/api/v1/games/game/a9e8e3fb-2ad0-4f73-8c61-c2c2cb526231/build/latest/frame",
         description: "Inside the eerie halls of PHINMA COC School, something has gone terribly wrong. It’s late evening, and the campus is unusually quiet—too quiet. Trapped inside during a sudden lockdown, you soon realize that a terrifying entity known as “PETA” is hunting anyone still within the school.With only your wits and limited resources, you must explore dark classrooms, abandoned corridors, and hidden passages. Solve puzzles, uncover clues, and find a way to escape before PETA finds you."
       },
           {
@@ -88,6 +88,56 @@
         img: "assets/alien-invasion2.png",
         link: "https://play.unity.com/en/games/f90f2748-cd0b-45bf-8cd4-1aabc64ab32b/alieninvasionrooftop",
         description: "Alien Invasion Rooftop is a 2D shooting game where you fight though a building overrun by aliens. Clear each floor, defeat and secure the rooftop to stop the invasion."
+      },
+      {
+        developerName: "Josh Marvin Portrias",
+        coDeveloperName: "Sandara Jane Pagaling",
+        developerImg: "assets/profiles/josh.png",
+        coDeveloperImg: "assets/profiles/sandara.png",
+        name: "Zombie Survival",
+        img: "assets/zombie-survival2.png",
+        link: "https://aye-fhr.github.io/Zombie-Survival/",
+        description: "You’re a nursing student trapped on the 5th floor of Phinmacoc College during a zombie outbreak. Fight your way through each floor, defeat the zombies, and reach the bottom to survive. Simple, fast, and action-packed can you clear them all?"
+      },
+          {
+        developerName: "Miguel Dealino",
+        coDeveloperName: "Romeo Pabellan",
+        developerImg: "assets/profiles/miguel.png",
+        coDeveloperImg: "assets/profiles/romeo.png",
+        name: "Dystopia",
+        img: "assets/dystopia2.png",
+        link: "https://pabellan002.itch.io/dystopia",
+        description: "Dystopia is a dark, apocalyptic adventure where a brave student fights through a ruined world to rescue his kidnapped mother from mysterious alien invaders. Face dangerous enemies, survive harsh environments, and uncover the truth behind the invasion as you journey through a broken future."
+      },
+            {
+        developerName: "Christian Dave Boncales",
+        coDeveloperName: "Noel Amber C. Eugenio",
+        developerImg: "assets/profiles/boncales.png",
+        coDeveloperImg: "assets/profiles/noel.png",
+        name: "Corruption Invaders CDO",
+        img: "assets/corruption-invaders2.png",
+        link: "https://play.unity.com/api/v1/games/game/5523442c-38df-473f-bc10-679d809d28c2/build/latest/frame",
+        description: "The Corruption is Spreading... Can You Stop It?In Corruption Invaders: CDOC, a mysterious force has overtaken the land, twisting its inhabitants into hostile enemies. As an elite operative, it is your mission to dive into the chaos, purge the invaders, and restore order before it’s too late.Master a fluid combat system that puts you in control. Get up close and personal with devastating melee punches, or keep the hordes at bay with your trusty firearm. But be warned: resources are scarce. You’ll need to scavenge for health and ammo drops from fallen enemies to survive the onslaught."
+      },
+            {
+        developerName: "Frances Lowell Atillo",
+        coDeveloperName: "Shaun Michael Belono-ac",
+        developerImg: "assets/profiles/atillo.png",
+        coDeveloperImg: "assets/profiles/person.png",
+        name: "NUMEN in the sewers",
+        img: "assets/numen2.png",
+        link: "https://play.unity.com/en/games/a2f7a870-b886-4a18-8bfa-80ce4d8702c9/numen-in-the-sewerr",
+        description: "Numen in the sewers is a thrilling 2D action fighting game where curiosity leads to danger. After discovering a mysterious manhole, the main character falls into a dark and unknown sewer system—and must now fight to survive and find a way back to the surface.Deep underground, the sewer is filled with hostile monsters, deadly traps, and hidden paths. Armed with combat skills and determination, you must battle enemies, avoid hazards, and push forward through each challenging area.Face powerful creatures and intense boss fights as you uncover the secrets hidden beneath the city. Every step brings you closer to freedom—but only if you’re strong enough to survive."
+      },
+            {
+        developerName: "",
+        coDeveloperName: "",
+        developerImg: "assets/profiles/person.png",
+        coDeveloperImg: "assets/profiles/person.png",
+        name: "",
+        img: "assets/",
+        link: "",
+        description: ""
       },
 
 
