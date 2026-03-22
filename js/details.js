@@ -130,6 +130,16 @@
         description: "Numen in the sewers is a thrilling 2D action fighting game where curiosity leads to danger. After discovering a mysterious manhole, the main character falls into a dark and unknown sewer system—and must now fight to survive and find a way back to the surface.Deep underground, the sewer is filled with hostile monsters, deadly traps, and hidden paths. Armed with combat skills and determination, you must battle enemies, avoid hazards, and push forward through each challenging area.Face powerful creatures and intense boss fights as you uncover the secrets hidden beneath the city. Every step brings you closer to freedom—but only if you’re strong enough to survive."
       },
             {
+        developerName: "Cyrus Tadoy",
+        coDeveloperName: "Jhomariel Venice Baldado",
+        developerImg: "assets/profiles/tadoy.png",
+        coDeveloperImg: "assets/profiles/baldado.png",
+        name: "Kagay-an Survivor",
+        img: "assets/kagayan-survivor2.png",
+        link: "https://play.unity.com/en/games/ca123eba-d9e6-4b91-b160-4badadfe989c/web",
+        description: "Fight through 5 floors of PHINMA COC overrun by zombies. Armed with a bat or crowbar, survive the horde, reach the top, and kill the boss before it's too late."
+      },
+              {
         developerName: "",
         coDeveloperName: "",
         developerImg: "assets/profiles/person.png",
@@ -139,6 +149,18 @@
         link: "",
         description: ""
       },
+
+              {
+        developerName: "",
+        coDeveloperName: "",
+        developerImg: "assets/profiles/person.png",
+        coDeveloperImg: "assets/profiles/person.png",
+        name: "",
+        img: "assets/",
+        link: "",
+        description: ""
+      },
+
 
 
     ];
