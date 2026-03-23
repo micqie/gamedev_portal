@@ -140,14 +140,14 @@
         description: "Fight through 5 floors of PHINMA COC overrun by zombies. Armed with a bat or crowbar, survive the horde, reach the top, and kill the boss before it's too late."
       },
               {
-        developerName: "",
-        coDeveloperName: "",
-        developerImg: "assets/profiles/person.png",
-        coDeveloperImg: "assets/profiles/person.png",
-        name: "",
-        img: "assets/",
-        link: "",
-        description: ""
+        developerName: "Irishdwin Gamutan",
+        coDeveloperName: "Lorenz Cloud Balacuit",
+        developerImg: "assets/profiles/gamutan.png",
+        coDeveloperImg: "assets/profiles/lorenz.png",
+        name: "Web of Survival",
+        img: "assets/web-survival2.png",
+        link: "https://play.unity.com/api/v1/games/game/e55a71ed-fe10-431e-a79b-00f32db49469/build/latest/frame",
+        description: "Step into a dark, pixelated world where the only way out is through a mountain of monsters. Nightmare Survived is a fast-paced, rogue like survival game."
       },
 
               {
