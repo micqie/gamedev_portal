@@ -59,6 +59,18 @@
       box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
       transform: translateY(-2px);
     }
+    .thumb-wrap {
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      overflow: hidden;
+      background: #1f2937;
+    }
+    .game-thumb {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
   </style>
 </head>
 
@@ -149,8 +161,8 @@
         container.innerHTML += `
           <div class="flex flex-col items-center gap-2">
             <a href="game.html?name=${encodeURIComponent(game.name)}" class="y8-card rounded overflow-hidden flex flex-col w-full">
-              <div class="aspect-square bg-gray-800">
-                <img src="${game.img}" alt="${game.name}" class="w-full h-full object-cover">
+              <div class="thumb-wrap">
+                <img src="${game.img}" alt="${game.name}" class="game-thumb">
               </div>
             </a>
             <span class="title-pill">${game.name}</span>
