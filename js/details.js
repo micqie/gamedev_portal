@@ -150,15 +150,15 @@
         description: "Step into a dark, pixelated world where the only way out is through a mountain of monsters. Nightmare Survived is a fast-paced, rogue like survival game."
       },
 
-              {
-        developerName: "",
-        coDeveloperName: "",
-        developerImg: "assets/profiles/person.png",
-        coDeveloperImg: "assets/profiles/person.png",
-        name: "",
-        img: "assets/",
-        link: "",
-        description: ""
+        {
+        developerName: "Nash Dumapias",
+        coDeveloperName: "Sathya Kilat",
+        developerImg: "assets/profiles/nash.png",
+        coDeveloperImg: "assets/profiles/sathya.png",
+        name: "Cocian Fighters",
+        img: "assets/cocian-fighters2.png",
+        link: "https://nashkharl.itch.io/cocian-fighters",
+       description: "A fast-paced 2-player school-themed cat vs dog fighting game where students battle using punches and special powers.\n\nPlayer 1: A, W, D (move) – E (punch) – R (power)\nPlayer 2: ←, ↑, → (move) – 1 (punch) – 2 (power)"
       },
 
 
